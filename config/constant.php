@@ -1,0 +1,27 @@
+<?php
+return [
+	'health'=>[
+		'app_id'=>'APP_033128',
+		'app_pass'=>'9f44de71d0f3bfa6872de990ab430ea8'
+	],
+	'joke'=>[
+		'app_id'=>'APP_033877',
+		'app_pass'=>'e17edc9387c7b61dd9d1e4b6989dd42b'
+	],
+	'love'=>[
+		'app_id'=>'APP_033564',
+		'app_pass'=>'cc92cfda36417bd7cfa28e15444cca54'
+	],
+	'recipe'=>[
+		'app_id'=>'APP_034228',
+		'app_pass'=>'c585ffbbef747fd8c0cefa9b85e9b693'
+	],
+	'beauty'=>[
+		'app_id'=>'APP_033878',
+		'app_pass'=>'94db36468f431dd54cf2983f035a1428'
+	],
+	'islamic'=>[
+		'app_id'=>'APP_034500',
+		'app_pass'=>'d8ac837e4ec84ffc23fef882061ef324'
+	]
+];

@@ -1,0 +1,293 @@
+@media only screen and (max-width: 1400px) {
+	body {  font-size: 14px; }
+    
+    .h1-font-weight {
+        font-size: 520%;
+    }
+
+    .mockup {
+        height: 430px;
+        width: auto;
+    }
+
+    .progress{
+        width: 290px;
+    }
+
+    .head-primary-main {  font-size: 165%; }
+    .head-primary-sub { font-size: 110%; }
+    .head-secondary-main {  font-size: 100%;  }
+    .head-secondary-sub { 
+        font-size: 50%;
+        line-height: 135%;
+    }
+    .head-primary,
+    .head-secondary {  padding-bottom: 5%;  }
+
+    .skill .moto {  margin-top: 55%;  }
+    .skill .moto:before {  left: 18%;  }
+    .skill .moto:after { right: 20%; }
+
+
+    .featured .carousel-caption {
+        top: 20%;
+        transform: translate(0%, -26%);
+    }
+    .featured h2 { padding-bottom: 0px; }
+
+    .feature .header {
+        padding-top: 90px;
+        padding-bottom: 40px;
+    }
+    
+    .feature .header ul img {
+        height: 65px;
+    }
+    .feature .tab-content {
+        padding: 30px 14% 70px;
+    }
+    .feature .tab-content h3 {
+        font-size: 270%;
+        padding-bottom: 16px;
+        margin-bottom: 16px;
+        margin-top: 5px;
+    }
+    .feature .tab-content .cnt {
+        padding-right: 8%;
+    }
+    .feature .subscribe .padding-left-right {
+        padding: 0px 15%;
+    }
+
+    .img_and_text {  padding-top: 5px;  }
+    .featured h4 {  padding-bottom: 5px;  }
+    .featured .mockup {  margin-top: 5%;  }
+
+    .who_we_are .who_we_are-cnt {  margin-top: 11%;  }
+    .who_we_are .mobile-mockup {  margin: 0% auto;  }
+}
+
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    body { font-size: 12px; }
+}
+
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    body { font-size: 12px; }
+}
+
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body { font-size: 12px; }
+    
+}
+
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    body { font-size: 12px; }
+
+    .padding-left-right{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    /* --------------------------------
+    --- carousel
+    ------------------------------- */
+    #home{
+        margin-top: 50px;
+    }
+    .carousel-caption {
+        top: 17%;
+        transform: translate(0%, -25%);
+        right: 5%;
+        left: 5%;
+    }
+    .carousel-inner{ height: 400px; }
+    .head-primary, .head-secondary{ 
+        text-align: center; 
+        padding-bottom: 5%;
+    }
+    .head-primary-main { font-size: 110%; }
+    .head-primary-sub{ font-size: 85%; }
+    .head-secondary-main{ font-size: 80%; }
+    .head-secondary-sub{ font-size: 40%; }
+    .playstore { margin: auto 15%; }
+
+
+    /* --------------------------------
+    --- service
+    ------------------------------- */
+    .service {
+        padding-top: 15px;
+    }
+
+    /* --------------------------------
+    --- carousel
+    ------------------------------- */
+    .featured .carousel-inner { height: 540px; }
+
+    .featured h2,
+    .featured h4{   
+        text-align: center; 
+    }
+    .featured h4{ padding-bottom: 2px; }
+    .featured p { padding: 0 30px; }
+    .img_and_text { 
+        margin: auto 15%;
+        padding-top: 0px;
+    }
+    .feature-link { text-align: center; }
+
+
+    /* --------------------------------
+    --- skill
+    ------------------------------- */
+    .skill{ background-position: center; }
+    .skill .moto {
+        margin-top: 2%;
+        margin-bottom: 8%;
+    }
+    .skill .moto:before {   left: 10%;  }
+    .skill .moto:after {   right: 15%;  }
+    .skill p {
+        padding-top: 5px;
+        padding-bottom: 25px;
+    }
+    .skill .progress {   width: 150px;   }
+
+    /* --------------------------------
+    --- who_we_are
+    ------------------------------- */
+    .who_we_are .content-left,
+    .who_we_are .content-right
+    {
+        text-align: center;
+    }
+
+    .who_we_are .who_we_are-cnt img{
+        height: 40px;
+        width: auto;
+        margin: 0 auto;
+    }
+     /* --------------------------------
+    --- footer
+    ------------------------------- */   
+    .footer{  padding-top: 15px; }
+    .footer .footer-desc {  padding-top: 0px; }
+
+    /* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+    /* ::::::::::::::::::::::::::::::: FEATURE APP :::::::::::::::::::::::::::::::: */
+    .feature .header {
+        padding-top: 80px;
+        padding-bottom: 25px;
+    }
+    .feature .header ul img {
+        height: 55px;
+    }
+    .feature ul.nav-fill {
+        padding: 0px 0%;
+    }
+    .feature ul li img.icon {
+        height: 35px;
+    }
+    .feature .tab-content {
+        padding: 15px 5% 70px;
+    }
+    .feature .tab-content .cnt {
+        padding-right: 0%;
+    }
+    .feature .tab-content h3 {
+        font-size: 270%;
+        padding-bottom: 16px;
+        margin-bottom: 16px;
+    }
+    .feature .subscribe .padding-left-right {
+        padding: 0px 6%;
+    }
+    .feature .subscribe .tot-cnt {
+        padding: 15px 20px;
+    }
+    .feature .header h2{
+        margin-top: 0px;
+    }
+    .feature .header .logo{
+        height: 80px;
+        width: auto;
+    }
+    .feature h5 {
+        padding: 0px 0px 10px;
+    }
+    .feature .download_now {
+        padding: 10px 0px 2px;
+    }
+
+
+    /* ::::::::::::::::::::::::::::::::::::: */
+    .service_header {
+        padding-top: 90px;
+        padding-bottom: 65px;
+    }
+    .service_app_services .tot-cnt img {
+        display: block;
+        margin: 0 auto;
+    }
+    .service_app_services .cnt {
+        text-align: center;
+    }
+    .service_we_provide .cnt {
+        text-align: center;
+    }
+    .service_we_provide .cnt img{
+        width: 60px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    .service_helping_business .left-cnt {
+        padding: 0% 0% 0% 0%;
+    }
+    .service_helping_business .cnt {
+        width: 165px;
+        height: 180px;
+        padding: 30px 30px;
+    }
+    .service_our_design_and_dev .cnt {
+        padding: 10px;
+        margin: 8px 8px;
+        height: 250px;
+    }
+    .service_our_process .cnt {
+        padding: 10% 0% 10% 0%;
+    }
+
+    .service_our_process .cnt .buttons a:link{
+        width: 110px;
+        padding: 6px 0px;
+        margin-bottom: 4px;
+    }
+    .service_digital_services .cnt {
+        text-align: center;
+    }
+    .service_digital_services .cnt .icon {
+        display: block;
+        margin: 0 auto;
+    }
+    .sr_p_desc::after {
+        height: 3px;
+        width: 30%;
+        bottom: -3px;
+        left: 35%;
+    }
+    .about_header {
+        padding-top: 90px;
+        padding-bottom: 50px;
+    }
+
+}
