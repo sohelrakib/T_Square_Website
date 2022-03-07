@@ -8,7 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="{{ asset('landing/vendors/fonts/Solaiman/stylesheet.css') }}">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="{{ asset('landing/resources/css/style.css') }}">
+  <link rel="stylesheet" href="{{ asset('landing/resources/css/style.css?v=1.1') }}">
   <link rel="stylesheet" href="{{ asset('landing/resources/css/media_query.css') }}">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
@@ -40,6 +40,8 @@
 <script>
   AOS.init();
 </script>
+
+@yield('extra_foot_script')
 
 </body>
 </html>

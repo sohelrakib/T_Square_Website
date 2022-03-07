@@ -33,6 +33,7 @@ class HomepageController extends Controller
 
     public function islamic()
     {
+        // dd('islamic');
         $title = "T-SQUARE - ISLAMIC APP";
         return view('home_page.pages.feature.islamic',compact('title'));
     }

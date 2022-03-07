@@ -1139,7 +1139,7 @@ ul{
     top: -35px;
 }
 .apk_download{
-    background: black;
+    background: #1b3146;
     color: white;
     padding: 10px 30px;
     border-radius: 10px;
@@ -1150,7 +1150,7 @@ ul{
 .apk_download:active,
 .apk_download:focus{
     text-decoration: none;
-    background: rgb(12, 6, 6);
+    background: #1b3146;
     color:white;
 }
 /* ::::::::::::::::::::::::::::::::END OF IT :::::::::::::::::::::::::::::::::: */

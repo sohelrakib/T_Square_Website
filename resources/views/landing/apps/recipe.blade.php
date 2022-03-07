@@ -46,7 +46,7 @@
 	                                <!-- <a class="fr_a_font_light" href="">
 	                                    <img src="{{ asset('landing/resources/image/feature_app/play_store.png') }}">
 	                                </a> -->
-	                                <a class="fr_a_font_light apk_download" href="{{ asset('landing/vendors/apk/recipe.apk') }}" download="recipe.apk">
+	                                <a class="fr_a_font_light apk_download" id="apk_download" href="{{ asset('landing/vendors/apk/recipe.apk') }}" download="recipe.apk">
 	                                  Download
 	                                </a>
 	                            </div>
@@ -210,4 +210,15 @@
 
 	    </div>
 	</div>
+@endsection
+
+@section('extra_foot_script')
+<script type="text/javascript">
+  
+    console.log('=== app ===');
+    function myFunction() {
+      document.getElementById("apk_download").click();
+    }
+    myFunction();
+</script>
 @endsection
